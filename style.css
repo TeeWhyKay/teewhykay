@@ -4,7 +4,7 @@ body {
   background-color: #659DBD;
   font-family: 'Lato', sans-serif;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@ h1, h2 {
  line-height: 1.6;
  color: black;
  font-family: 'Open Sans', sans-serif;
- font-size: 16px;
+ font-size: 24px;
 }
 
 p.paragraph-half {
