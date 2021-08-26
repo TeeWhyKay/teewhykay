@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  background-color: #659DBD;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+h1, h2 {
+ line-height: 1.6;
+ color: black;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+}
+
+p.paragraph-half {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  color: #DAAD86;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #755a42;
+}
+
+.btn-orange {
+  color: black;
+  background-color: #FBEEC1;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+  /* border: 1px solid lightgrey; */
+}
+
+.list-inline > li {
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button-margin {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1440px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    /* width: min(80%, 600px)  */
+    width: 80%;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
